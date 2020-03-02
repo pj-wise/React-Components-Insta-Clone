@@ -4,25 +4,23 @@ import "./SearchBar.css";
 
 const SearchBar = () => {
   return (
-    <div className="search-bar-wrapper">
-      <div className="image-wrapper">
-        <i className="fab fa-instagram" />
+    <div className='search-bar-wrapper'>
+      <div className='image-wrapper'>
+        <i className='fa fa-instagram fa-lg' />
+        InstaClone
       </div>
-      <form className="search-form">
-        <input
-          type="text"
-          placeholder="Search"
-        />
+      <form className='search-form'>
+        <input type='text' placeholder='Search' />
       </form>
-      <div className="social-wrapper">
-        <div className="social">
-          <i className="far fa-compass" />
+      <div className='social-wrapper'>
+        <div className='social'>
+          <i className='fa fa-compass fa-lg' />
         </div>
-        <div className="social">
-          <i className="far fa-heart" />
+        <div className='social'>
+          <i className='fa fa-heart fa-lg' />
         </div>
-        <div className="social">
-          <i className="far fa-user-circle" />
+        <div className='social'>
+          <i className='fa fa-user-circle fa-lg' />
         </div>
       </div>
     </div>
