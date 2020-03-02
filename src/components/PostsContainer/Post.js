@@ -26,10 +26,10 @@ const Post = props => {
           alt='post thumbnail'
           className='post-image'
           src={props.post.imageUrl}
-          likeHandler={likeHandler}
+          onClick={() => likeHandler()}
         />
       </div>
-      <LikeSection likes={props.post.likes} />
+      <LikeSection likes={likeCount} handler={likeHandler} />
       <CommentSection
         postId={props.post.imageUrl}
         comments={props.post.comments}
