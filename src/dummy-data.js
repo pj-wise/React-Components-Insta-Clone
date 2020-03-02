@@ -56,7 +56,7 @@ const dummyData = [
       "https://banner2.cleanpng.com/20180509/wre/kisspng-computer-icons-youtube-icon-round-logo-design-5af2b97c1a7d03.8622494215258566361085.jpg",
     imageUrl:
       "https://cnet1.cbsistatic.com/img/3CDiyOcfvR_1rzeLvWcTZVZ2sYM=/2020/01/01/301595b2-19b5-4399-94a2-718b3e3ed15c/youtube-logo-laptop-4692.jpg",
-    likes: 4307,
+    likes: 7007,
     timestamp: "July 15th 2017, 03:12:09 pm",
     comments: [
       {
